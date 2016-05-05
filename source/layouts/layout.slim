@@ -1,0 +1,22 @@
+doctype 5
+html
+  head
+    meta content="IE=edge" http-equiv="X-UA-Compatible"
+    meta charset="utf-8"
+    meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    meta name="robots" content="noindex"
+
+    title Dependn'
+
+    link href='//fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'
+
+    = stylesheet_link_tag :app
+
+  body class=page_classes
+    = inline_svg 'icons.svg'
+
+    = partial 'partials/header'
+    = yield
+    = partial 'partials/footer'
+
+    = javascript_include_tag :app

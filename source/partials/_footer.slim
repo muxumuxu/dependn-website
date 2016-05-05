@@ -1,0 +1,12 @@
+footer.footer
+  .wrapper
+    nav.footer-menu
+      = t 'footer.copyright'
+
+    nav.footer-menu
+      - if I18n.locale != :fr
+        a.footer-menu-link href="/" = t 'footer.lang'
+      - else
+        a.footer-menu-link href="/en/" = t 'footer.lang'
+      = link_to t('footer.terms'), '', class: 'footer-menu-link'
+      = link_to t('footer.privacy'), '', class: 'footer-menu-link'

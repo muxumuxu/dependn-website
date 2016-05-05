@@ -1,0 +1,46 @@
+en:
+  app_store_link: https://itunes.apple.com/us/app/dependn-control-your-addictions/id1093903062?mt=8
+  menu:
+    press: Press
+    support: Support
+  hero:
+    title: TODO
+
+  dependent:
+    title: TODO
+    subtitle: |
+      TODO
+    features:
+      add: |
+        TODO
+      level: |
+        TODO
+      types: |
+        TODO
+      export: |
+        TODO
+
+  specialist:
+    title: TODO
+    subtitle: |
+      TODO
+    features:
+      add: |
+        TODO
+      types: |
+        TODO
+      level: |
+        TODO
+      export: |
+        TODO
+
+  testimonial:
+    text: |
+      TODO
+    author: TODO
+
+  footer:
+    copyright: Made with love by Muxu•Muxu
+    lang: Français
+    terms: Terms of service
+    privacy: Privacy policy

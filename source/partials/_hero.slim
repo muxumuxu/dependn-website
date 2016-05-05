@@ -1,0 +1,5 @@
+.hero#top
+  .wrapper
+    h1.hero-title = t 'hero.title'
+    = link_to t('app_store_link'), target: '_blank' do
+      = image_tag "#{I18n.locale}/badge.svg"

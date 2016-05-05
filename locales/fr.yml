@@ -1,0 +1,61 @@
+fr:
+  app_store_link: https://itunes.apple.com/fr/app/dependn-control-your-addictions/id1093903062?mt=8
+  menu:
+    press: Presse
+    support: Assistance
+  hero:
+    title: |
+      Prenez le contrôle sur<br/>
+      vos dépendances
+
+  dependent:
+    title: Vous êtes dépendant ?
+    subtitle: |
+      Dependn' vous aide à analyser votre comportement et partager vos données
+      avec votre médecin.
+    features:
+      add: |
+        Ajoutez une nouvelle entrée où que vous soyez depuis votre iPhone ou
+        Apple Watch
+      level: |
+        Simple envie ou consommation ? Intensité minime ? Donnez du contexte à
+        chaque entrée
+      types: |
+        Alcool, cannabis, tabac... Trackez une ou plusieurs dépendances en même
+        temps
+      export: |
+        Partagez à tout moment un tableau XLS de vos données avec votre médecin
+
+  specialist:
+    title: Vous êtes spécialiste ?
+    subtitle: |
+      Dependn' vous aide à collecter les données quotidiennes de vos patients
+      dépendants.
+    features:
+      add: |
+        Récupérez le contexte, l'émotion et l'intensité de chaque prise
+      types: |
+        Dissociez les envies maîtrisées des réelles consommations de votre
+        patient
+      level: |
+        En déplacement ou à la maison, votre patient ajoute une entrée où il
+        veut
+      export: |
+        1 ou plusieurs dépendances exportées dans 1 seul et même fichier XLS
+
+  testimonial:
+    text: |
+      En suivant mes consommations quotidiennes, mes émotions, l’intensité de
+      mon envie, ma psychiatre découvre des patterns et m’aide à me concentrer
+      sur les consommations que je peux diminuer ou substituer.<br/>
+      <br/>
+      Sans Dependn’ jamais je n’aurai eu le courage ni la possibilité d’aller
+      si loin. C’est pour cette raison que je partage maintenant Dependn’ avec
+      vous tous.
+    author: David Miotti - Fondateur de Dependn'
+
+  footer:
+    copyright: Fait avec amour par Muxu•Muxu
+    lang: English
+    terms: Conditions d'utilisation
+    privacy: Politique de confidentialité

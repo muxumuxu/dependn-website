@@ -1,0 +1,21 @@
+header.header
+  .wrapper
+    nav.header-menu
+      = link_to '#top', class: 'header-menu-link', data: { scroll: true } do
+        = svg_tag 'logo-full', width: 102, height: 33
+
+    nav.header-menu
+      / = link_to t('menu.press'), '', class: 'header-menu-link'
+      = link_to t('menu.support'), 'mailto:contact@dependn.com', class: 'header-menu-link'
+
+header.header.header--fixed
+  .wrapper
+    nav.header-menu
+      = link_to '#top', class: 'header-menu-link', data: { scroll: true } do
+        = svg_tag 'logo-full', width: 102, height: 33
+
+    nav.header-menu
+      / = link_to t('menu.press'), '', class: 'header-menu-link'
+      = link_to t('menu.support'), 'mailto:contact@dependn.com', class: 'header-menu-link'
+      = link_to t('app_store_link'), class: 'header-menu-link', target: '_blank' do
+        = image_tag "#{I18n.locale}/badge.svg", height: 40

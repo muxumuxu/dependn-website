@@ -1,0 +1,21 @@
+.footer
+  padding: 50px 0
+  .wrapper
+    +display-flex
+    +flex-direction(row)
+    +align-items(center)
+    +justify-content(space-between)
+
+  .footer-menu
+    +display-flex
+    +flex-direction(row)
+    +align-items(center)
+    &:last-child
+      .footer-menu-link
+        margin-left: 14px
+
+  .footer-menu-link
+    display: block
+    font-size: 12px
+    color: rgba($color-dark, .7)
+    line-height: 19px
