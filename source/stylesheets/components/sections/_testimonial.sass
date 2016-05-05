@@ -6,11 +6,10 @@
     +flex-direction(row)
 
   .testimonial-image
-    border-radius: 50%
-    // overflow: hidden
     img
       border-radius: 50%
       display: block
+      margin: auto
 
   .testimonial-content
     margin: 0 0 0 34px
@@ -30,3 +29,19 @@
     &:before
       content: '—'
       display: block
+
+@media (max-width: 640px)
+  .section--testimonial
+    .testimonial
+      display: block
+
+    .testimonial-image
+      margin: 0 0 30px
+      img
+        width: 118px
+        height: 118px
+
+    .testimonial-content
+      max-width: 300px
+      margin: 0 auto
+      text-align: center

@@ -3,6 +3,17 @@
     max-width: 360px
     margin: 0 0 30px
 
+  .wrapper
+    +display-flex
+    +flex-direction(row)
+    +align-items(flex-start)
+    +justify-content(space-between)
+
+  .dependent-devices
+    margin-right: -166px
+    margin-top: -42px
+    margin-bottom: -75px
+
   .features
     max-width: 300px
   .feature
@@ -11,3 +22,23 @@
       margin-bottom: 0
     .feature-icon
       margin: 0 0 10px
+
+@media (max-width: 640px)
+  .section--dependent
+    text-align: center
+
+    .wrapper
+      +flex-direction(column-reverse)
+      +align-items(stretch)
+
+    .dependent-devices
+      width: 100%
+      max-width: 454px
+      height: auto
+      margin: 0 auto
+
+    .section-heading
+      margin: 0 auto 30px
+
+    .features
+      margin: auto

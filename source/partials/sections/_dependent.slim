@@ -1,11 +1,13 @@
 section.section.section--dependent
   .wrapper
-    .section-heading
-      h2.section-heading-title = t 'dependent.title'
-      p.section-heading-subtitle = t 'dependent.subtitle'
+    div
+      .section-heading
+        h2.section-heading-title = t 'dependent.title'
+        p.section-heading-subtitle = t 'dependent.subtitle'
 
-    .features
-      - t('dependent.features').each do |key, text|
-        .feature
-          .feature-icon = image_tag "icons/#{key}.svg"
-          p.feature-text = text
+      .features
+        - t('dependent.features').each do |key, text|
+          .feature
+            .feature-icon = image_tag "icons/#{key}.svg"
+            p.feature-text = text
+    = partial 'partials/sections/dependent_devices'
