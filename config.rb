@@ -27,6 +27,5 @@ configure :build do
   activate :minify_html
   activate :asset_hash
 
-  activate :asset_host
-  set :asset_host, 'https://dependn.com'
+  activate :asset_host, host: 'https://dependn.com'
 end
