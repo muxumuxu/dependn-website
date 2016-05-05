@@ -1,43 +1,65 @@
 en:
+  title: Dependn'
+  description: TODO
+  url: https://dependn.com/en/
+
   app_store_link: https://itunes.apple.com/us/app/dependn-control-your-addictions/id1093903062?mt=8
   menu:
     press: Press
     support: Support
   hero:
-    title: TODO
+    title: |
+      Keep your addictions<br/>
+      under control.
 
   dependent:
-    title: TODO
+    title: Do you suffer with an addiction?
     subtitle: |
-      TODO
+      Dependn' lets you analyze your behavior and share your data with your
+      doctor.
     features:
       add: |
-        TODO
+        Create new records while on the move, straight from your iPhone or Apple
+        Watch.
       level: |
-        TODO
+        Give context to each dose you record, whether you are simply
+        experiencing cravings or actually consume a dose. Monitor the intensity
+        of your cravings.
       types: |
-        TODO
+        Track one addiction, or several addictions at the same time, from
+        alcohol to cannabis or tobacco.
       export: |
-        TODO
+        Share your data with your specialist anytime
 
   specialist:
-    title: TODO
+    title: Are you a medical specialist?
     subtitle: |
-      TODO
+      Dependn' lets you collect daily data from your patients who are suffering
+      with addictions.
     features:
       add: |
-        TODO
+        Collect data about the context, the patient's feelings and the craving
+        intensity related to each dose.
       types: |
-        TODO
+        Differentiate between your patient's controlled cravings and real
+        consumption.
       level: |
-        TODO
+        Patients can record their doses from anywhere, whether at home or on the
+        move.
       export: |
-        TODO
+        Export the data for one or several addictions, in one single XLS file.
 
   testimonial:
     text: |
-      TODO
-    author: TODO
+      By following my consumption on a daily basis, as well as my feelings and
+      the intensity of my cravings, my addiction psychiatrist was able to see
+      patterns in my behavior. She helped me to concentrate on those doses that
+      I was able to reduce or replace.<br/>
+      <br/>
+      Without Dependn', I would never have had the courage to have come so far.
+      It just wouldn't have been possible. That's why I want to share Dependn’
+      with you today
+    author: David Miotti - Dependn' Founder.
 
   footer:
     copyright: Made with love by Muxu•Muxu
