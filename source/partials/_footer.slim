@@ -1,7 +1,8 @@
 footer.footer
   .wrapper
     nav.footer-menu
-      = t 'footer.copyright'
+      = link_to 'https://muxumuxu.com/', class: 'footer-menu-link' do
+        = t 'footer.copyright'
 
     nav.footer-menu
       - if I18n.locale != :fr
