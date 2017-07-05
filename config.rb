@@ -13,6 +13,12 @@ end
 activate :i18n, mount_at_root: :fr, langs: [:fr, :en]
 activate :sprockets
 
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  deploy.branch = 'gh-pages'
+  deploy.build_before = true
+end
+
 set :fonts_dir, 'fonts'
 
 ignore '*/vendor/*'

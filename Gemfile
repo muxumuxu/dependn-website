@@ -9,3 +9,4 @@ gem 'middleman-minify-html'
 gem 'middleman-gh-pages'
 
 gem 'slim'
+gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
