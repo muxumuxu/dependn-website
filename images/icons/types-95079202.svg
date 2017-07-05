@@ -1,0 +1,24 @@
+<svg width="37" height="44" viewBox="0 0 37 44" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>
+        types
+    </title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="c">
+            <stop stop-color="#9895F5" offset="0%"/>
+            <stop stop-color="#5CB8E6" offset="100%"/>
+        </linearGradient>
+        <path d="M11 7v2.324C4.658 10.374 0 13.86 0 18c0 .39.041.773.121 1.15a2.98 2.98 0 0 0-.121.843v21.014A2.996 2.996 0 0 0 3 44h24c1.653 0 3-1.34 3-2.993V19.993c0-.294-.042-.577-.121-.845.08-.376.121-.759.121-1.148 0-4.14-4.658-7.626-11-8.676V7h1V0H10v7h1z" id="a"/>
+        <mask id="d" x="0" y="0" width="30" height="44" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <rect id="b" x="22" y="23" width="15" height="21" rx="2"/>
+        <mask id="e" x="0" y="0" width="15" height="21" fill="#fff">
+            <use xlink:href="#b"/>
+        </mask>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use stroke="url(#c)" mask="url(#d)" stroke-width="2" fill="#FFF" xlink:href="#a"/>
+        <use stroke="url(#c)" mask="url(#e)" stroke-width="2" fill="#FFF" xlink:href="#b"/>
+        <path fill="#899EF1" d="M23 28h13v1H23z"/>
+    </g>
+</svg>
